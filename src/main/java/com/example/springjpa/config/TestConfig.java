@@ -11,7 +11,7 @@ import com.example.springjpa.entities.User;
 import com.example.springjpa.reposistories.UserRepository;
 
 @Configuration
-@Profile("teste")
+@Profile("test")
 public class TestConfig implements CommandLineRunner {
 
 	@Autowired
